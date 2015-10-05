@@ -1,0 +1,16 @@
+<footer class="footer">
+	<small>
+		This sample app by 
+		<a href="http://www.wobbievandenhurk.com" target="_blank">Wobbie van den Hurk</a> 
+		is based on the 
+		<a href="http://www.railstutorial.org/" target="_blank">Ruby on Rails Tutorial</a>
+		by <a href="http://www.michaelhartl.com/" target="_blank">Michael Hartl</a>.
+	</small>
+	<nav>
+		<ul>
+			<li><%= link_to "About",		about_path %></li>
+			<li><%= link_to "Contact", 	contact_path %></li>
+			<li><a href="http://news.railstutorial.org/" target="_blank">News</a></li>
+		</ul>
+	</nav>
+</footer>
